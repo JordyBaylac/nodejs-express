@@ -1,0 +1,39 @@
+{
+  "name": "nodejs_express",
+  "description": "Study the course of building web applications with node and express 4.0",
+  "main": "app.js",
+  "authors": [
+    "JordyBaylac"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  },
+  "overrides": {
+      "bootstrap": {
+        "main": [
+          "dist/js/bootstrap.js",
+          "dist/css/bootstrap.min.css",
+          "less/bootstrap.less"
+        ]
+      },
+      "font-awesome": {
+        "main": [
+          "css/font-awesome.min.css",
+          "scss/font-awesome.scss",
+          "less/font-awesome.less"
+        ]
+      }
+  }
+
+  
+}

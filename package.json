@@ -1,0 +1,37 @@
+{
+  "name": "nodejs_express",
+  "version": "1.0.0",
+  "description": "Study the course of building web applications with node and express 4.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JordyBaylac",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.1",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.24",
+    "mssql": "^3.3.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "wiredep": "^4.0.0"
+  }
+}
